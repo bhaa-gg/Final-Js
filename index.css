@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box !important;
-}   
+}
 
 body {
     background-color: rgba(0, 0, 0, 0.5);
@@ -34,7 +34,9 @@ body {
 }
 
 .sideNav {
-    left: -20.25%;
+    background-color: black;
+    position: fixed !important;
+    left: -302px;
 }
 
 .ul1 li {
@@ -112,9 +114,12 @@ h3 {
 
 @media (max-width: 900px) {
     .sideNav {
-        right:  100% !important;
+        /* position: absolute; */
+        /* left: -30%; */
+        left: -125px !important;
+
     }
-    
-    
-    
+
+
+
 }
